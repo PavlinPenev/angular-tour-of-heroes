@@ -1,22 +1,28 @@
 /* Application-wide Styles */
 h1 {
   color: #369;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 250%;
+  margin-bottom: 0;
 }
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 7px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 12px;
+  border-color: #405061;
+  border-style: groove;
+  border-width: 1vh;
 }
-body {
-  margin: 2em;
+
+nav a:hover {
+  color: white;
+  background-color: #42545C;
 }
-body, input[type="text"], button {
-  color: #333;
-  font-family: Cambria, Georgia, serif;
-}
-/* everywhere else */
-* {
-  font-family: Arial, Helvetica, sans-serif;
+nav a.active {
+  background-color: black;
 }

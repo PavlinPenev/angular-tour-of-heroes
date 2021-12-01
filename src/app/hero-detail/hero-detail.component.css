@@ -2,3 +2,28 @@ div h2 {
     color: #369;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+label {
+    color: #435960;
+    font-weight: bold;
+  }
+  input {
+    font-size: 1em;
+    padding: .5rem;
+  }
+  button {
+    color: whitesmoke;
+    margin-top: 20px;
+    background-color: #369;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+    font-size: 1rem;
+  }
+  button:hover {
+    background-color: #003399;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }

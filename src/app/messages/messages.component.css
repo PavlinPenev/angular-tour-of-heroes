@@ -1,0 +1,27 @@
+div h2 {
+    color: red;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+div div{
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-size-adjust: wider;
+}
+button {
+    color: whitesmoke;
+    margin-bottom: 10px;
+    background-color: #369;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+    font-size: 1rem;
+  }
+  button:hover {
+    background-color: #003399;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
