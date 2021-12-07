@@ -1,27 +1,18 @@
-# AngularTourOfHeroes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Angular - Tour Of Heroes 
+# Currently app is looking like this:
+![Application GIF](TourOfHeroesGif.gif)
+# App was roughly finished in 4 days:
+    Day 1. 
+        - Setup the app
+        - Created main components
+        - Making the heroes component display a list of mock heroes
+    Day 2.
+        - Created hero details component which shows the details of a hero when clicked(displayed under the content of the heroes list in the heroes component)
+        - Adding hero and message services. Hero service is intended to keep all methods that make changes to the heroes list while message service is generating messages when an         action occurs.
+    Day 3.
+        - Add navigation to the application(Dashboard, Heroes). Dashboard brings out top players, Heroes brings out a list of all heroes. 
+        - Added more detailed CSS(still pretty basic).
+        - Routed the navigation.
+    Day 4.
+        - Simulated a data server with InMemoryWebApiModule so I can simulate basic CRUD operations.
+        - Added more CSS.
