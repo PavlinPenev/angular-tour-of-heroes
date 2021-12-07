@@ -12,7 +12,7 @@ label {
   }
   button {
     color: whitesmoke;
-    margin-top: 20px;
+    margin-top: 2px;
     background-color: #369;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -26,4 +26,7 @@ label {
     background-color: #eee;
     color: #ccc;
     cursor: auto;
+  }
+  .goBack {
+    margin-top: 10px;
   }

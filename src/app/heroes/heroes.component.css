@@ -3,6 +3,19 @@ h2{
   color: #369;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+.add-button {
+  color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 3px;
+    background-color: #369;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+.add-button:hover {
+  background-color: #003399;
+}
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
@@ -41,6 +54,21 @@ h2{
   color: #fafafa;
 }
 
+button.delete {
+  position: absolute;
+  border-radius: 50px;
+  left: 210px;
+  top: 5px;
+  background-color: white;
+  color:  #525252;
+  font-size: 1.1rem;
+  padding: 1px 8px 3px 8px;
+}
+
+button.delete:hover {
+  background-color: #405061;
+  color: white;
+}
 .heroes .badge {
   display: inline-block;
   font-size: small;
@@ -57,4 +85,7 @@ h2{
   margin-right: .8em;
   border-radius: 5px 0 0 5px;
   transform:scale(0.88);
+}
+.input {
+  margin-bottom: 20px;
 }
