@@ -1,6 +1,6 @@
 # Angular - Tour Of Heroes 
 # Currently app is looking like this:
-![Application GIF](TourOfHeroesGif.gif)
+![Application GIF](TourOfHeroesGif)
 # App was roughly finished in 4 days:
     Day 1. 
         - Setup the app
