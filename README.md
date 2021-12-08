@@ -16,6 +16,7 @@
           Dashboard brings out top players, Heroes brings out a list of all heroes. 
         - Added more detailed CSS(still pretty basic).
         - Routed the navigation.
+        - Pulled out the heroes details and made a route for them in the navigation(now it's showed separately and individually)
     Day 4.
         - Simulated a data server with InMemoryWebApiModule so I can simulate basic CRUD operations.
         - Added more CSS.
