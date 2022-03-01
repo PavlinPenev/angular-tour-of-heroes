@@ -20,3 +20,5 @@
     Day 4.
         - Simulated a data server with InMemoryWebApiModule so I can simulate basic CRUD operations.
         - Added more CSS.
+
+    To run the app clone the repo and run npm install.
