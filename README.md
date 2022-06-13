@@ -1,4 +1,7 @@
 # Angular - Tour Of Heroes 
+Tutorial for the framework on the official website.
+![image](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+
 # Currently app is looking like this:
 ![Application GIF](TourOfHeroesGif.gif)
 # App was roughly finished in 4 days:
@@ -21,4 +24,4 @@
         - Simulated a data server with InMemoryWebApiModule so I can simulate basic CRUD operations.
         - Added more CSS.
 
-    To run the app clone the repo and run npm install.
+    To run the app clone the repo and run npm install and ng serve -o.
