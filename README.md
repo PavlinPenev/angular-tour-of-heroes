@@ -1,5 +1,6 @@
 # Angular - Tour Of Heroes 
 Tutorial for the framework on the official website.
+<p></p>
 ![image](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 # Currently app is looking like this:
